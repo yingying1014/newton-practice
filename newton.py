@@ -14,3 +14,5 @@ def optimize(x0, f, tol =1e-4):
         x_new = x0 - deriv(f, x0) / deriv2(f, x0)
     return {"x": x_new,
             'value': f(x_new)}
+
+print("hi")
