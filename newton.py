@@ -23,4 +23,4 @@ def optimize(x0, f, tol =1e-4):
     return {"x": x_new,
             'value': f(x_new)}
 
-print("hi")
+print("hi!")
